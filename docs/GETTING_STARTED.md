@@ -137,6 +137,7 @@ A: Yes, MIT License. Open Source forever.
 
 ## ⏭️ Next Steps
 
-1. [Browse the Bundles](BUNDLES.md)
-2. [See Real-World Examples](EXAMPLES.md)
-3. [Contribute a Skill](../CONTRIBUTING.md)
+1. [Follow the Learning Guide](LEARNING_GUIDE.md) (Recommended)
+2. [Browse the Bundles](BUNDLES.md)
+3. [See Real-World Examples](EXAMPLES.md)
+4. [Contribute a Skill](../CONTRIBUTING.md)

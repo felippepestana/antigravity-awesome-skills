@@ -35,6 +35,7 @@ This repository provides essential skills to transform your AI assistant into a 
 ## Table of Contents
 
 - [🚀 New Here? Start Here!](#new-here-start-here)
+- [🎓 Learning Guide](docs/LEARNING_GUIDE.md) - **Follow this path to master all skills!**
 - [📖 Complete Usage Guide](docs/USAGE.md) - **Start here if confused after installation!**
 - [🔌 Compatibility & Invocation](#compatibility--invocation)
 - [🛠️ Installation](#installation)
@@ -53,7 +54,7 @@ This repository provides essential skills to transform your AI assistant into a 
 
 ---
 
-## New Here? Start Here!
+## New Here? Start Here
 
 **Welcome to the V6.10.0 Interactive Web Edition.** This isn't just a list of scripts; it's a complete operating system for your AI Agent.
 
@@ -97,7 +98,9 @@ Once installed, just ask your agent naturally:
 > "Use the **@brainstorming** skill to help me plan a SaaS."
 > "Run **@lint-and-validate** on this file."
 
-👉 **NEW:** [**Complete Usage Guide - Read This First!**](docs/USAGE.md) (answers: "What do I do after installation?", "How do I execute skills?", "What should prompts look like?")
+👉 **NEW:** [**🎓 Learning Guide - Follow the Path!**](docs/LEARNING_GUIDE.md) (Step-by-step phases to master the 1006+ skills)
+
+👉 **USAGE:** [**Complete Usage Guide - Read This First!**](docs/USAGE.md) (answers: "What do I do after installation?", "How do I execute skills?", "What should prompts look like?")
 
 👉 **[Full Getting Started Guide](docs/GETTING_STARTED.md)**
 
@@ -289,7 +292,7 @@ They help you avoid picking from 1006+ skills one by one.
 - ❌ Different git commands
 - ❌ Something you need to "activate"
 
-### How to use bundles:
+### How to use bundles
 
 1. **Install the repository once** (you already have all skills)
 2. **Browse bundles** in [docs/BUNDLES.md](docs/BUNDLES.md) to find your role
@@ -298,7 +301,7 @@ They help you avoid picking from 1006+ skills one by one.
 
 For detailed examples of how to actually use skills, see the [**Usage Guide**](docs/USAGE.md).
 
-### Examples:
+### Examples
 
 - Building a SaaS MVP: `Essentials` + `Full-Stack Developer` + `QA & Testing`.
 - Hardening production: `Security Developer` + `DevOps & Cloud` + `Observability & Monitoring`.
