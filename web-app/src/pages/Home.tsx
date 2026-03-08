@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, useCallback } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { Search, Filter, AlertCircle, RefreshCw, ArrowUpDown } from 'lucide-react';
 import { VirtuosoGrid } from 'react-virtuoso';
 import debounce from 'lodash.debounce';
@@ -16,10 +16,8 @@ export function Home(): React.ReactElement {
   const [syncMsg, setSyncMsg] = useState<SyncMessage | null>(null);
 
   // Debounce search input to avoid excessive filtering on every keystroke
-  const debouncedSetSearch = useCallback(
-    debounce((value: string) => {
-      setDebouncedSearch(value);
-    }, 300),
+  const debouncedSetSearch = useMemo(
+    () => debounce((value: string) => setDebouncedSearch(value), 300),
     []
   );
 
@@ -86,7 +84,7 @@ export function Home(): React.ReactElement {
       } else {
         setSyncMsg({ type: 'error', text: `❌ ${data.error}` });
       }
-    } catch (err) {
+    } catch {
       setSyncMsg({ type: 'error', text: '❌ Network error' });
     } finally {
       setSyncing(false);

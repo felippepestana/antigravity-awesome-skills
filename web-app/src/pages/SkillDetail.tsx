@@ -44,7 +44,7 @@ export function SkillDetail(): React.ReactElement {
         // Remove frontmatter for clean display
         const body = text.replace(/^---\s*\n(.*?)\n---\n*/s, '');
         setContent(body);
-      } catch (err) {
+      } catch {
         setError('O arquivo de documentação desta habilidade não pôde ser carregado.');
       } finally {
         setContentLoading(false);

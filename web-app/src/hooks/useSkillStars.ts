@@ -144,8 +144,9 @@ export function useSkillStars(skillId: string | undefined): UseSkillStarsReturn 
       // Remove from localStorage on error
       const userStars = getUserStarsFromStorage();
       if (userStars[skillId]) {
-        const { [skillId]: _, ...rest } = userStars;
-        saveUserStarsToStorage(rest);
+        const newStars = { ...userStars };
+        delete newStars[skillId];
+        saveUserStarsToStorage(newStars);
       }
     } finally {
       setIsLoading(false);

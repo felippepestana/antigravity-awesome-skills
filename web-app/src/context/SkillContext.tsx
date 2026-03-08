@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import React, { createContext, useContext, useState, useEffect, useCallback, useMemo } from 'react';
 import type { Skill, StarMap } from '../types';
 import { supabase } from '../lib/supabase';

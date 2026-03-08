@@ -3,7 +3,8 @@ import { Glossary } from './pages/Glossary';
 import { SkillDetail } from './pages/SkillDetail';
 import { Home as ExploreHome } from './pages/Home';
 import { LearningGuide } from './pages/LearningGuide';
-import { BookOpen, Github, LayoutGrid, GraduationCap } from 'lucide-react';
+import { SkillStudio } from './pages/SkillStudio';
+import { BookOpen, Github, LayoutGrid, GraduationCap, Edit3 } from 'lucide-react';
 
 function App(): React.ReactElement {
   return (
@@ -33,6 +34,11 @@ function App(): React.ReactElement {
                   Explorar
                 </Link>
                 <div className="h-4 w-px bg-slate-200 dark:bg-slate-800 hidden sm:block" />
+                <Link to="/studio" className="flex items-center text-indigo-600 font-medium hover:text-indigo-700 dark:text-indigo-400 dark:hover:text-indigo-300 transition-colors bg-indigo-50 dark:bg-indigo-900/20 px-3 py-1.5 rounded-lg border border-indigo-100 dark:border-indigo-900/50">
+                  <Edit3 className="h-4 w-4 mr-1.5" />
+                  Estúdio Local
+                </Link>
+                <div className="h-4 w-px bg-slate-200 dark:bg-slate-800 hidden sm:block" />
                 <a
                   href="https://github.com/sickn33/antigravity-awesome-skills"
                   target="_blank"
@@ -53,6 +59,7 @@ function App(): React.ReactElement {
             <Route path="/learn" element={<LearningGuide />} />
             <Route path="/explore" element={<ExploreHome />} />
             <Route path="/skill/:id" element={<SkillDetail />} />
+            <Route path="/studio" element={<SkillStudio />} />
           </Routes>
         </main>
 
