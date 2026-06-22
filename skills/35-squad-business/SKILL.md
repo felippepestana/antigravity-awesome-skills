@@ -140,7 +140,7 @@ Analiso: estágio do produto (ideia / MVP / crescimento / escala)
 
 ### PASSO 2: Seleção de Expert
 ```
-Crozo: necessidade × tabela de roteamento
+Cruzo: necessidade × tabela de roteamento
 → Aciono: 1-3 skills da área mais crítica
 ```
 

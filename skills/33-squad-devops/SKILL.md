@@ -138,7 +138,7 @@ Analiso: cloud provider, containers, CI/CD atual, escala esperada
 
 ### PASSO 2: Seleção de Stack de Infra
 ```
-Crozo: requisitos × tabela de roteamento
+Cruzo: requisitos × tabela de roteamento
 → Aciono: skills de IaC + observabilidade + deploy
 ```
 

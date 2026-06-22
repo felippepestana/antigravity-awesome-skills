@@ -110,7 +110,7 @@ Analiso: package.json / pyproject.toml / go.mod / pom.xml / Cargo.toml
 
 ### PASSO 2: Seleção de Expert
 ```
-Crozo: stack detectada × tabela de roteamento acima
+Cruzo: stack detectada × tabela de roteamento acima
 → Aciono: 1-3 skills especializadas
 ```
 

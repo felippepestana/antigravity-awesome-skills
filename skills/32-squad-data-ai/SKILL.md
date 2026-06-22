@@ -147,7 +147,7 @@ Analiso: tipo de dado, volume, latência, objetivo de negócio
 
 ### PASSO 2: Seleção de Expert
 ```
-Crozo: categoria × tabela de roteamento
+Cruzo: categoria × tabela de roteamento
 → Aciono: 1-3 skills especializadas
 ```
 

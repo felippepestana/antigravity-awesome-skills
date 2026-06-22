@@ -148,7 +148,7 @@ Analiso: superfície de ataque, dados sensíveis, autenticação, APIs expostas
 
 ### PASSO 2: Seleção de Skills
 ```
-Crozo: vetor de ataque × defesa necessária
+Cruzo: vetor de ataque × defesa necessária
 → Aciono: SAST + auth + pentest relevante
 ```
 
