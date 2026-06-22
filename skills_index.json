@@ -30,6 +30,86 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "30-squad-development",
+    "path": "skills/30-squad-development",
+    "category": "andruia",
+    "name": "30-squad-development",
+    "description": "Squad de Desenvolvimento & Frameworks. Orquestra 196+ especialistas em linguagens, frameworks front-end, back-end, mobile e web. Ativa o expert certo para cada stack tecnológica.",
+    "risk": "safe",
+    "source": "personal",
+    "date_added": "2026-06-22"
+  },
+  {
+    "id": "31-squad-architecture",
+    "path": "skills/31-squad-architecture",
+    "category": "andruia",
+    "name": "31-squad-architecture",
+    "description": "Squad de Arquitetura & Planejamento. Orquestra 157+ especialistas em design de sistemas, APIs, bancos de dados, documentação e revisão de código. Define a estrutura sólida antes de construir.",
+    "risk": "safe",
+    "source": "personal",
+    "date_added": "2026-06-22"
+  },
+  {
+    "id": "32-squad-data-ai",
+    "path": "skills/32-squad-data-ai",
+    "category": "andruia",
+    "name": "32-squad-data-ai",
+    "description": "Squad de Data & AI. Orquestra 153+ especialistas em IA/ML, LLMs, engenharia de dados, automação de CRM, voz, RAG e análise quantitativa. Transforma dados em inteligência acionável.",
+    "risk": "safe",
+    "source": "personal",
+    "date_added": "2026-06-22"
+  },
+  {
+    "id": "33-squad-devops",
+    "path": "skills/33-squad-devops",
+    "category": "andruia",
+    "name": "33-squad-devops",
+    "description": "Squad de DevOps & Infraestrutura. Orquestra 88+ especialistas em cloud, Kubernetes, Terraform, CI/CD, observabilidade e deploy. Garante que o software chegue à produção de forma confiável e escalável.",
+    "risk": "safe",
+    "source": "personal",
+    "date_added": "2026-06-22"
+  },
+  {
+    "id": "34-squad-automation",
+    "path": "skills/34-squad-automation",
+    "category": "andruia",
+    "name": "34-squad-automation",
+    "description": "Squad de Automação & Workflows. Orquestra 81+ especialistas em automação de SaaS (CRM, PM, marketing), CI/CD, pagamentos, redes sociais e padrões de workflow. Elimina tarefas manuais repetitivas.",
+    "risk": "safe",
+    "source": "personal",
+    "date_added": "2026-06-22"
+  },
+  {
+    "id": "35-squad-business",
+    "path": "skills/35-squad-business",
+    "category": "andruia",
+    "name": "35-squad-business",
+    "description": "Squad de Negócios & Conteúdo. Orquestra 63+ especialistas em SEO, CRO, marketing, documentação técnica, análise de mercado e estratégia de produto. Converte expertise técnica em valor de negócio.",
+    "risk": "safe",
+    "source": "personal",
+    "date_added": "2026-06-22"
+  },
+  {
+    "id": "36-squad-security",
+    "path": "skills/36-squad-security",
+    "category": "andruia",
+    "name": "36-squad-security",
+    "description": "Squad de Segurança & Privacidade. Orquestra 54+ especialistas em segurança ofensiva, defensiva, compliance, autenticação, SAST, pentest e proteção de dados. Zero tolerância a vulnerabilidades.",
+    "risk": "safe",
+    "source": "personal",
+    "date_added": "2026-06-22"
+  },
+  {
+    "id": "37-squad-testing",
+    "path": "skills/37-squad-testing",
+    "category": "andruia",
+    "name": "37-squad-testing",
+    "description": "Squad de Testes & QA. Orquestra 51+ especialistas em TDD, testes unitários, E2E, performance, acessibilidade, pentest de aplicação, validação de browser e avaliação de LLMs. Qualidade não é opcional.",
+    "risk": "safe",
+    "source": "personal",
+    "date_added": "2026-06-22"
+  },
+  {
     "id": "2d-games",
     "path": "skills/game-development/2d-games",
     "category": "game-development",
